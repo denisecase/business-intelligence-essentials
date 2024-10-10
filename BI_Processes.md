@@ -14,29 +14,29 @@ This process is essential for gathering the raw data needed for further processi
 Combining data from different sources into a unified view to provide users with consistent access and delivery of data across the spectrum of subjects and structure types. 
 This process is crucial for ensuring that all data elements are aligned and coherent.
 
-- **Tableau Prep, SQL, Excel, and Python" are commonly used to combine data sources based on a common attribute.
+- Tableau Prep, SQL, Excel, and Python are commonly used to combine data sources based on a common attribute.
 
 ## Data Cleaning
 
 The process of detecting and correcting (or removing) corrupt or inaccurate records from a dataset, ensuring data quality. 
 This includes dealing with outliers, missing values, and any misentered data to improve the overall quality and reliability of the data analysis.
 
-- **Tableau Prep, SQL, Excel, and Python" are commonly used for cleaning data.
+- Tableau Prep, SQL, Excel, and Python are commonly used for cleaning data.
 
 ## Transform
 
 Modifying data to ensure it adheres to the required format and quality for analysis and reporting. 
 Transformations can include normalization, aggregation, and preparation of data for specific analytical needs.
 
-- **SQL, Excel, and Python" are commonly used for cleaning data.
-- **Tableau Prep** enables cleaning and provides a visual representation of data preparation workflows. 
+- SQL, Excel, and Python are commonly used for cleaning data.
+- Tableau Prep enables cleaning and provides a visual representation of data preparation workflows. 
 
 ## Load
 
 The process of moving transformed data into a final target database, data warehouse, or data lake. 
 This step is critical as it involves populating the data into a structure that supports efficient querying and analysis.
 
-- **Apache Spark** can be used to load big data, along with **Python** and associated libraries. 
+- Apache Spark can be used to load big data, along with Python and associated libraries. 
 
 ## Tool Selection
 
