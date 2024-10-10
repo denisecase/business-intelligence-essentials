@@ -1,42 +1,60 @@
 # BI Data Processes
 
-This page lists common processes in Business Intelligence (BI). 
-Understanding these terms helps clarify how data is managed and utilized from initial collection through to analysis.
-We list some commonly accessible tools used in each. 
+Data Processes refer to the full spectrum of activities that manage and utilize data in Business Intelligence (BI).
+These processes guide how data moves from collection all the way through to analysis and reporting.
+Data Processes include Data Preparation and Data Analysis. 
 
-## Extract
+-----
 
-While not a focus in our class, extraction typically involves retrieving data from single or multiple sources, often as the first step in the ETL (Extract, Transform, Load) process. 
-This process is essential for gathering the raw data needed for further processing and analysis.
+## Data Preparation
 
-## Data Integration
+Data Preparation is a subset of data processes and involves getting raw data ready for analysis. 
+It includes multiple steps that are essential for ensuring the data is clean, formatted, and structured properly. 
+These steps typically follow the ETL (Extract, Transform, Load) framework, along with additional activities like Data Cleaning and Data Integration.
 
-Combining data from different sources into a unified view to provide users with consistent access and delivery of data across the spectrum of subjects and structure types. 
-This process is crucial for ensuring that all data elements are aligned and coherent.
+### Data Collection & Extraction
 
-- Tableau Prep, SQL, Excel, and Python are commonly used to combine data sources based on a common attribute.
+The first step in the ETL process, where raw data is gathered from various sources like databases, files, or APIs for further preparation and analysis.
 
-## Data Cleaning
+Tools Used: Python, SQL, Tableau Prep, Excel
 
-The process of detecting and correcting (or removing) corrupt or inaccurate records from a dataset, ensuring data quality. 
-This includes dealing with outliers, missing values, and any misentered data to improve the overall quality and reliability of the data analysis.
+### Data Integration
 
-- Tableau Prep, SQL, Excel, and Python are commonly used for cleaning data.
+This step combines data from multiple sources into a unified view, ensuring consistency and coherence in the dataset before further preparation.
 
-## Transform
+Tools Used: Tableau Prep, SQL, Python, Excel
 
-Modifying data to ensure it adheres to the required format and quality for analysis and reporting. 
-Transformations can include normalization, aggregation, and preparation of data for specific analytical needs.
+### Data Cleaning
 
-- SQL, Excel, and Python are commonly used for cleaning data.
-- Tableau Prep enables cleaning and provides a visual representation of data preparation workflows. 
+The process of identifying and correcting errors, handling missing values, removing duplicates, and eliminating outliers. 
+This step is critical for improving the quality of the data.
 
-## Load
+Tools Used: Tableau Prep, SQL, Python, Excel
 
-The process of moving transformed data into a final target database, data warehouse, or data lake. 
-This step is critical as it involves populating the data into a structure that supports efficient querying and analysis.
+### Data Transformation
 
-- Apache Spark can be used to load big data, along with Python and associated libraries. 
+This involves modifying the data to fit the required structure for analysis. 
+Transformations include normalization, aggregation, and formatting to ensure the data is suitable for reporting and querying.
+
+Tools Used: Python, SQL, Tableau Prep, Excel
+
+### Data Loading
+
+The final step in the ETL process. 
+After data has been transformed, it is loaded into the target system (e.g., database, warehouse) to support efficient querying and analysis.
+
+Tools Used: Apache Spark, Python
+
+-----
+
+## Data Analysis
+
+Once data is collected, cleaned, transformed, and loaded, it’s ready for Data Analysis. 
+This process involves applying statistical, machine learning, or BI tools to the prepared data to generate insights, identify trends, and inform decision-making.
+
+Tools Used: Power BI, Excel, Python, Tableau
+
+-----
 
 ## Tool Selection
 
