@@ -63,6 +63,13 @@ It is scalable, designed for high performance, and popular with data engineers a
 Spark is designed for data too big to process efficiently on one machine. It is run on clusters of computers.
 We can use it with SQL, Python, or other languages, and the Spark engine handles the distribution and replication needed to perform analytics safely in the cloud.
 
+To try Spark locally, students working on Mac and Linux can follow the installation instructions. 
+Windows students can install WSL  (Windows Subsystem for Linux) and the Ubuntu Linux Distribution and follow the instructions.
+
+Versions mattter. Spark 3.5.3 requires JDK (Java Development Kit) version 8, 11, or 17 - it will not work with JDK 21. 
+
+Watch for Spark 4.0 coming soon - there is a [preview release available](https://spark.apache.org/news/spark-4.0.0-preview2.html). It supports JDK 21 and 17 out of the box. 
+
 ### [Python](https://www.python.org) 
 
 Python is a versatile, open-source programming language known for ease of use and libraries for data analysis, machine learning, and automation. 
@@ -100,6 +107,10 @@ To get experience, students can download [Tableau Prep for Students](https://www
 Metabase is a growing tool in this space, particularly popular among small to medium-sized businesses and organizations looking for simplicity, cost-effectiveness, and open-source solutions. 
 It is not as widely adopted as industry giants like Tableau or Power BI, but has gained recognition
 for its intuitive design and ability to make data easily accessible and understandable to a wide range of users across an organization, regardless of their technical expertise.
+
+After we install Java to enable Apache Spark, students can try Metabase by installing the jar file. 
+Mac and Linux work well. Windows students can install WSL and Ubuntu. 
+Metabase works with JDK 21, 17, and 11. For now, we need to stay with JDK 17 to work with Spark 3.5.3.
 
 ### [Shiny](https://shiny.rstudio.com)  
 
